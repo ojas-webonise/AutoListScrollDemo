@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#848844"
+    android:padding="10dp" >
+    
+    <LinearLayout 
+        android:id="@+id/llListItemTitle"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:background="#777777"
+    	android:padding="10dp" >
+        
+        <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:text="Sample List Item\nLorem ipsum dolor sit amet"
+    		android:textSize="18sp"
+    		android:layout_marginBottom="5dp" />
+
+        <TextView 
+            android:id="@+id/textDescript"
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:text="Lorem ipsum dolor sit amet" />
+        
+    </LinearLayout>
+    
+    <ScrollView 
+        android:id="@+id/svListItemContents"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="#878787"
+    	android:padding="10dp" >
+        
+        <TextView 
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical"
+    		android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum."
+    		android:textSize="16sp" />
+        
+    </ScrollView>
+
+</LinearLayout>
